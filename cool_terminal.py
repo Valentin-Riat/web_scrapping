@@ -1,3 +1,10 @@
+"""
+Please put the following line in the powershell if the ANSI codes do not displays correctly :
+
+            reg add HKEY_CURRENT_USER\Console /v VirtualTerminalLevel /t REG_DWORD /d 1
+
+"""
+
 import time
 import sys
 # print(ord("━"))
